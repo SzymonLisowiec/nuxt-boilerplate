@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
-	  fdsg
-  </section>
+	<main class="page--index">
+		
+	</main>
 </template>

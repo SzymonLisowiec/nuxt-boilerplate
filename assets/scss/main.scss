@@ -6,25 +6,15 @@
 	box-sizing: border-box;
 }
 
-*:focus {
-	outline: none;
-}
-
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif, Verdana, Arial, initial;
 	font-weight: 400;
-	background: #fcfcfc;
+	background: #fff;
 	overflow-y: scroll;
 }
 
 a {
 	text-decoration: none;
-}
-
-.page {
-
-	min-height: 100vh;
-
 }
 
 $content_max_width: 1200px;
