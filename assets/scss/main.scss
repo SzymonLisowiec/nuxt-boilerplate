@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	border: none;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background: #fcfcfc;
+	overflow-y: scroll;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page {
+
+	min-height: 100vh;
+
+}
+
+$content_max_width: 1200px;
+
+$mobile-breakpoint: 1000px;
+
+@mixin mobile {
+
+	@media screen and (max-width: #{$mobile-breakpoint}){
+		@content;
+	}
+
+}
